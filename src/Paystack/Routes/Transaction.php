@@ -130,4 +130,19 @@ class Transaction implements RouteInterface
             RouteInterface::ARGS_KEY => ['access_code'],
         ];
     }
+
+    // public static function refund()
+    // {
+    //     return [
+    //         RouteInterface::METHOD_KEY => RouteInterface::POST_METHOD,
+    //         RouteInterface::ENDPOINT_KEY => '/refund',
+    //         RouteInterface::PARAMS_KEY => [
+    //             'transaction',
+    //             'amount',
+    //             'currency',
+    //             'customer_note',
+    //             'merchant_note',
+    //         ],
+    //     ];
+    // }
 }

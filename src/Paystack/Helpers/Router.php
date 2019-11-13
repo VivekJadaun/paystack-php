@@ -14,7 +14,7 @@ class Router
     public static $ROUTES = [
         'customer', 'page', 'plan', 'subscription', 'transaction', 'subaccount',
         'balance', 'bank', 'decision', 'integration', 'settlement',
-        'transfer', 'transferrecipient', 'invoice'
+        'transfer', 'transferrecipient', 'invoice', 'refund'
     ];
     public static $ROUTE_SINGULAR_LOOKUP = [
         'customers'=>'customer',
@@ -27,6 +27,7 @@ class Router
         'settlements'=>'settlement',
         'transfers'=>'transfer',
         'transferrecipients'=>'transferrecipient',
+        'refunds'=>'refund',
     ];
 
     const ID_KEY = 'id';
